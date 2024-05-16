@@ -1,7 +1,8 @@
 :root{
-    --primary-color: #0056d2;
+    --primary-color: #0058d2;
     --light-theme: #ffffff;
     --dark-theme: #111827;
-    --primary-text-color: #ffffff;
-    --secondary-text-color: #111827;
+    --primary-text-color: #111827;
+    --secondary-text-color: #ffffff;
+    --hover-a-color: #1e83f0;
 }
