@@ -22,7 +22,7 @@ body {
 
 body a {
     text-decoration: none;
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     transition: all 250ms ease;
 }
 
@@ -36,7 +36,7 @@ i {
 
 /* styles */
 .top-bar {
-    background-color: var(--dark-theme);
+    background-color: #eee;
 }
 
 .top-bar-content {
