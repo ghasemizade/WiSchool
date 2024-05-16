@@ -20,9 +20,9 @@ body {
     box-sizing: inherit;
 }
 
-a {
+body a {
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
     transition: all 250ms ease;
 }
 
@@ -32,4 +32,37 @@ a:hover {
 
 i {
     user-select: none;
+}
+
+/* styles */
+.top-bar {
+    background-color: var(--dark-theme);
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.list-of-top-bar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.top-bar-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar-item > a {
+    border-bottom: 1px solid var(--dark-theme);
+}
+
+.top-bar-item > a:hover {
+    border-bottom: 1px solid var(--primary-color);
 }
