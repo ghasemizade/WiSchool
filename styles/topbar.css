@@ -1,0 +1,42 @@
+/* top bar css style */
+.top-bar {
+    background-color: #f0f2f7;
+    width: 100%;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-of-top-bar {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    gap: 1.5rem;
+}
+
+.top-bar-item {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+}
+
+.top-bar-item > a {
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.top-bar-item > a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.top-bar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
