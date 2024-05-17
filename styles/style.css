@@ -24,6 +24,7 @@ body a {
     text-decoration: none;
     color: var(--primary-text-color);
     transition: all 250ms ease;
+    font-size: 2rem;
 }
 
 a:hover {
@@ -43,7 +44,6 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
 }
 
 .list-of-top-bar {
@@ -74,5 +74,5 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    gap: .8rem;
 }
