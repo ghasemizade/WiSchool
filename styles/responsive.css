@@ -1,0 +1,14 @@
+@media (max-width: 640px) {
+    .top-bar-item > a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .top-bar-item > a {
+        font-size: 1rem;
+    }
+    .list-of-top-bar{
+        gap: 1.5rem;
+    }
+}
