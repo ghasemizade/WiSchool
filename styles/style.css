@@ -36,7 +36,7 @@ i {
 
 /* styles */
 .top-bar {
-    background-color: #eee;
+    background-color: #f0f2f7;
 }
 
 .top-bar-content {
@@ -49,6 +49,8 @@ i {
 .list-of-top-bar {
     display: flex;
     align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
     gap: 2rem;
 }
 
@@ -56,13 +58,21 @@ i {
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    height: 100%;
 }
 
 .top-bar-item > a {
-    border-bottom: 1px solid var(--dark-theme);
+    border-bottom: 1px solid var(--secondary-text-color);
 }
 
 .top-bar-item > a:hover {
     border-bottom: 1px solid var(--primary-color);
+}
+
+.top-bar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
 }
