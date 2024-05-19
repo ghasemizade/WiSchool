@@ -103,7 +103,15 @@ i {
     border-top: solid 0.2rem var(--primary-color);
 }
 
-.nav-bar-item-frontend:hover .list-of-nav-bar-frontend{
+.nav-bar-item .fa-caret-up{
+    transition: 300ms ease-in;
+}
+
+.nav-bar-item:hover .fa-caret-up {
+    transform: rotate(180deg);
+}
+
+.nav-bar-item-frontend:hover .list-of-nav-bar-frontend {
     display: block;
 }
 
