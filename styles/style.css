@@ -41,6 +41,7 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1.5rem 0;
 }
 
 .nav-bar-left {
@@ -155,4 +156,8 @@ i {
 .list-of-nav-bar-backend li:last-child{
     border-radius: 0 0 .5rem .5rem;
 
+}
+
+.login-btn {
+    width: 8rem;
 }
