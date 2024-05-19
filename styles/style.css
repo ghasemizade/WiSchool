@@ -53,8 +53,9 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     margin: 0;
+    cursor: pointer;
 }
 
 .nav-bar-left .nav-bar-item {
@@ -104,6 +105,8 @@ i {
     padding: 0;
     font-size: 1.8rem;
     display: none;
+    border-bottom: solid 0.2rem var(--primary-color);
+    border-top: solid 0.2rem var(--primary-color);
 }
 
 .list-of-nav-bar-frontend li {
