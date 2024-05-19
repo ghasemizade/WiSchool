@@ -89,15 +89,22 @@ i {
     right: .1rem;
 }
 
+.nav-bar-item-frontend:hover .list-of-nav-bar-frontend{
+    display: block;
+}
+
+.nav-bar-item-frontend:hover span{
+    color: var(--primary-color);
+}
+
 .list-of-nav-bar-frontend {
     background-color: #f0f2f7;
     border-radius: 0.5rem;
     position: absolute;
     padding: 0;
     font-size: 1.8rem;
+    display: none;
 }
-
-
 
 .list-of-nav-bar-frontend li {
     padding: 0.3rem 0.5rem;
