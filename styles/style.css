@@ -82,7 +82,8 @@ i {
     justify-content: center;
     width: 1.8rem;
     height: 1.8rem;
-    background-color: #fff;
+    background-color: #1e83f0;
+    color: #fff;
     border-radius: 100%;
     padding: .2rem;
     position: absolute;
@@ -90,15 +91,8 @@ i {
     right: .1rem;
 }
 
-.nav-bar-item-frontend:hover .list-of-nav-bar-frontend{
-    display: block;
-}
-
-.nav-bar-item-frontend:hover span{
-    color: var(--primary-color);
-}
-
-.list-of-nav-bar-frontend {
+.submenu{
+    width: 10rem;
     background-color: #f0f2f7;
     border-radius: 0.5rem;
     position: absolute;
@@ -107,6 +101,14 @@ i {
     display: none;
     border-bottom: solid 0.2rem var(--primary-color);
     border-top: solid 0.2rem var(--primary-color);
+}
+
+.nav-bar-item-frontend:hover .list-of-nav-bar-frontend{
+    display: block;
+}
+
+.nav-bar-item:hover span{
+    color: #1e83f0;
 }
 
 .list-of-nav-bar-frontend li {
@@ -122,6 +124,27 @@ i {
 }
 
 .list-of-nav-bar-frontend li:last-child{
+    border-radius: 0 0 .5rem .5rem;
+
+}
+
+.nav-bar-item-backend:hover .list-of-nav-bar-backend{
+    display: block;
+}
+
+.list-of-nav-bar-backend li {
+    padding: 0.3rem 0.8rem;
+}
+
+.list-of-nav-bar-backend li:hover {
+    background-color: #dadde2;
+}
+
+.list-of-nav-bar-backend li:first-child{
+    border-radius: .5rem .5rem 0 0;
+}
+
+.list-of-nav-bar-backend li:last-child{
     border-radius: 0 0 .5rem .5rem;
 
 }
