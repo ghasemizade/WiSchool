@@ -88,3 +88,30 @@ i {
     top: -.6rem;
     right: .1rem;
 }
+
+.list-of-nav-bar-frontend {
+    background-color: #f0f2f7;
+    border-radius: 0.5rem;
+    position: absolute;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+
+
+.list-of-nav-bar-frontend li {
+    padding: 0.3rem 0.5rem;
+}
+
+.list-of-nav-bar-frontend li:hover {
+    background-color: #dadde2;
+}
+
+.list-of-nav-bar-frontend li:first-child{
+    border-radius: .5rem .5rem 0 0;
+}
+
+.list-of-nav-bar-frontend li:last-child{
+    border-radius: 0 0 .5rem .5rem;
+
+}
