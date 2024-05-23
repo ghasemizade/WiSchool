@@ -50,13 +50,14 @@ i {
 .land-title {
     text-align: center;
     font-size: 5rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
+    height: 60px;
 }
 
 .land-desc {
     text-align: center;
     font-size: 2rem;
-    margin: 1rem 0;
+    margin: 2rem 0;
 
 }
 
