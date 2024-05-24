@@ -38,6 +38,8 @@ i {
 
 /* land section */
 .land {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/land-bg.jpg);
+    background-size: cover;
     background-color: var(--primary-color);
     color: var(--secondary-text-color);
 }
