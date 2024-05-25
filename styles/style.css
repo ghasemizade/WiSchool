@@ -75,3 +75,20 @@ i {
     height: 3.5rem;
     font-size: 1.5rem;
 }
+
+.title {
+    position: relative;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 200px;
+    height: 45%;
+    background-color: rgba(0, 88, 210, 0.3);
+}
