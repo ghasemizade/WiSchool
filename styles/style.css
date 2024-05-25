@@ -2,6 +2,7 @@
 @import url('./fonts.css');
 @import url('./topbar.css');
 @import url('./navbar.css');
+@import url('./land.css');
 
 /* default css */
 html {
@@ -36,85 +37,41 @@ i {
     user-select: none;
 }
 
-/* land section */
-.land {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(30, 131, 240, 0.2)), url(../assets/land-bg2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: var(--primary-color);
-    color: var(--secondary-text-color);
-}
-
-.land .container {
-    width: 768px;
+/* new courses section */
+.new-courses .container {
+    width: 980px;
     padding: 3rem 0;
 }
 
-.land-title {
-    text-align: center;
-    font-size: 5rem;
-    margin: 2rem 0;
-    height: 60px;
-}
-
-.land-desc {
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem 0;
-
-}
-
-.land-search {
-    background-color: var(--secondary-color);
+.new-courses .container .content {
     display: flex;
-    justify-content: center;
-    align-items: stretch;
-    padding: .2rem;
-    border-radius: .8rem;
-    margin: 4rem 0;
-}
-
-.land-search .land-search-input {
-    width: 100%;
-    padding: 1rem .2rem;
-    border: none;
-    border-radius: .8rem;
-    font-size: 1.5rem;
-
-}
-
-.land-search .land-search-input::placeholder {
-    font-size: 1.5rem;
-}
-
-.land-search .land-search-btn {
-    border: none;
-    background-color: var(--primary-color);
-    border-radius: .8rem;
-
-}
-
-.land-search .land-search-btn .search-btn-icon {
-    font-size: 2rem;
-    color: var(--secondary-text-color);
-}
-
-.website-have .website-have-items {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-.website-have .website-have-item {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    font-size: 2rem;
 }
 
-.website-have .website-have-item .time-svg,
- .book-svg,
-.graduation-svg {
-    font-size: 5rem;
+
+.new-courses .container .content .new-courses-left-side {
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.new-courses .container .content .new-courses-left-side .italic-line {
+    width: 0.5rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transform: rotate(-5deg);
+    user-select: none;
+}
+
+.new-courses .container 
+.content .new-courses-left-side 
+.new-courses-left-side-content {
+    padding-left: 0.5rem;
+}
+
+.new-courses-right-side .all-course-btn {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
 }
