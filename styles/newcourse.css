@@ -1,0 +1,38 @@
+/* new courses section */
+.new-courses .container {
+    width: 980px;
+    padding: 3rem 0;
+}
+
+.new-courses .container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.new-courses .container .content .new-courses-left-side {
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.new-courses .container .content .new-courses-left-side .italic-line {
+    width: 0.5rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transform: rotate(-5deg);
+    user-select: none;
+}
+
+.new-courses .container 
+.content .new-courses-left-side 
+.new-courses-left-side-content {
+    padding-left: 0.5rem;
+}
+
+.new-courses-right-side .all-course-btn {
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
