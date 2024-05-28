@@ -39,33 +39,30 @@ i {
     user-select: none;
 }
 
+.courses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .course-container {
     width: 980px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .course-container .cards {
     display: grid;
-    grid-column: auto auto auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.course-container .cards .card {
+    border: none;
+
 }
 
 .course-container .cards .card .card-content {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 0.5rem 1rem;
-
-}
-
-.course-container .cards .card img{
-    width: 480px;
-}
-
-.course-container .cards .card h4{
-    
 
 }
 
