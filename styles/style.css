@@ -40,3 +40,70 @@ i {
 }
 
 
+.course-container {
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-container .cards {
+    display: grid;
+    grid-column: auto auto auto;
+}
+
+.course-container .cards .card .card-content {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 0.5rem 1rem;
+
+}
+
+.course-container .cards .card img{
+    width: 480px;
+}
+
+.course-container .cards .card h4{
+    
+
+}
+
+.course-container .cards .card .detail-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.course-container .cards .card .detail-top .athor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-container .cards .card .detail-top .athor p {
+    margin-bottom: 0;
+    margin-left: .5rem;
+}
+
+.course-container .cards .card .detail-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.course-container .cards .card .detail-bottom .students-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.course-container .cards .card .detail-bottom .students-count p {
+    margin-bottom: 0;
+    margin-left: .5rem;
+
+}
