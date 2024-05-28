@@ -58,7 +58,12 @@ i {
 
 .course-container .cards .card {
     border: none;
+    border-radius: 0.5rem;
+}
 
+.course-container .cards .card img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
 }
 
 .course-container .cards .card .card-content {
@@ -70,8 +75,6 @@ i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 
 .course-container .cards .card .detail-top .athor {
