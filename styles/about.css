@@ -56,6 +56,7 @@
     align-items: center;
     font-size: 1rem;
     gap: 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .about-boxes .features-boxes-container .about-svg {
