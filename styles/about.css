@@ -1,0 +1,33 @@
+/* new courses section */
+.about .container {
+    width: 980px;
+    padding: 3rem 0;
+}
+
+.about .container .content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.about .container .content  {
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.about .container .content .italic-line {
+    width: 0.5rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    transform: rotate(-5deg);
+    user-select: none;
+}
+
+.about .container 
+.content  
+.about-left-side-content {
+    padding-left: 0.5rem;
+}
+
