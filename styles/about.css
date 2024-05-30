@@ -1,4 +1,11 @@
 /* new courses section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .about .container {
     width: 980px;
     padding: 3rem 0;
@@ -31,3 +38,53 @@
     padding-left: 0.5rem;
 }
 
+.about-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-boxes .features-boxes-container {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.08);
+    width: 100%;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    transition: 0.2s;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1.5rem;
+}
+
+.about-boxes .features-boxes-container .about-svg {
+    font-size: 4rem;
+    transition: 0.2s;
+}
+
+.about-boxes .features-boxes-container:hover .about-svg {
+    color: var(--primary-color);
+
+}
+
+.about-boxes .features-boxes-container:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+
+.about-boxes .first-row-features-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+
+}
+
+.about-boxes .second-row-features-boxes  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    
+}
