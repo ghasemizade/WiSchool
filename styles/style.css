@@ -8,6 +8,8 @@
 @import url('./courses.css');
 @import url('./about.css');
 @import url('./popular.css');
+@import url('./swiper.css');
+
 
 /* default css */
 html {
@@ -42,9 +44,6 @@ i {
     user-select: none;
 }
 
-.swiper {
-    width: 980px;
-    height: 300px;
-  }
+
   
 
