@@ -1,36 +1,4 @@
 /* popular section */
-.popular .header .container {
-    width: 980px;
-    padding: 3rem 0;
-}
-
-.popular .header .container .content {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-
-.popular .header .container .content .new-courses-left-side {
-    font-size: 1.5rem;
-    display: flex;
-}
-
-.popular .header .container .content .italic-line {
-    width: 0.5rem;
-    height: 5rem;
-    background-color: var(--primary-color);
-    border-radius: 20px;
-    transform: rotate(-5deg);
-    user-select: none;
-}
-
-.popular .header .container 
-.content .popular-content {
-    padding-left: 0.5rem;
-}
-
-
 .swiper-popular-boxes .swiper-wrapper .swiper-slide {
     border: none;
     border-radius: 0.5rem;
