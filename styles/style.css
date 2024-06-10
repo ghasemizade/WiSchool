@@ -9,6 +9,7 @@
 @import url('./about.css');
 @import url('./popular.css');
 @import url('./swiper.css');
+@import url('./lastessay.css');
 
 
 /* default css */
@@ -49,6 +50,9 @@ i {
 .header .container {
     width: 980px;
     padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header .container .content {
