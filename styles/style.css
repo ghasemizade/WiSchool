@@ -78,3 +78,31 @@ i {
 .content .head-text {
     padding-left: 0.5rem;
 }
+
+/* footer */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: var(--primary-color);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-container a {
+    font-size: 50px;
+    color: #fff;
+}
+
+.footer-content ul {
+    margin: 0 20px;
+}
+
+.footer-content ul li:hover {
+    text-decoration: underline;
+}
