@@ -80,6 +80,11 @@ i {
 }
 
 /* footer */
+.footer {
+    position: relative;
+    margin-top: 200px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-around;
@@ -92,11 +97,13 @@ i {
     justify-content: space-between;
     font-size: 14px;
     color: #fff;
+    z-index: 10;
 }
 
 .footer-container a {
     font-size: 50px;
-    color: #fff;
+    /* color: var(--primary-color); */
+    z-index: 30;
 }
 
 .footer-content ul {
@@ -105,4 +112,26 @@ i {
 
 .footer-content ul li:hover {
     text-decoration: underline;
+}
+
+.left-semi-circle {
+    width: 1000px;
+    height: 300px;
+    background-color: var(--primary-color);
+    z-index: 0;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+}
+
+.right-semi-circle {
+    width: 1000px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 0;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
 }
