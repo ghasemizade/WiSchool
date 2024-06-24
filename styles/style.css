@@ -100,11 +100,23 @@ i {
     z-index: 10;
 }
 
-.footer-container a {
-    font-size: 50px;
-    /* color: var(--primary-color); */
+.footer-container .footer-source {
     z-index: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+.footer-container a {
+    font-size: 70px;
+    /* color: var(--primary-color); */
+}
+
+.footer-container img {
+    width: 70px;
+}
+
 
 .footer-content ul {
     margin: 0 20px;
