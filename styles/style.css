@@ -30,6 +30,21 @@ body {
     box-sizing: inherit;
 }
 
+/* scrollbar */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #eee;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #aaa;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #eee;  /* creates padding around scroll thumb */
+  }
+
 body a {
     text-decoration: none;
     color: var(--primary-text-color);
@@ -124,26 +139,4 @@ i {
 
 .footer-content ul li:hover {
     text-decoration: underline;
-}
-
-.left-semi-circle {
-    width: 1000px;
-    height: 300px;
-    background-color: var(--primary-color);
-    z-index: 0;
-    border-radius: 50px;
-    position: absolute;
-    bottom: 0px;
-    left: -50px;
-}
-
-.right-semi-circle {
-    width: 1000px;
-    height: 300px;
-    background-color: #fff;
-    z-index: 0;
-    border-radius: 100%;
-    position: absolute;
-    bottom: 50px;
-    right: 0px;
 }
