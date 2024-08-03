@@ -23,6 +23,10 @@ body {
     font-size: 1.6rem;
 }
 
+.container {
+    max-width: 980px;
+}
+
 *,
 *::after,
 *::before {
@@ -61,7 +65,7 @@ i {
 }
   
 .header .container {
-    width: 980px;
+    max-width: 980px;
     padding: 3rem 0;
     display: flex;
     justify-content: space-between;
