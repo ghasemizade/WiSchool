@@ -1,19 +1,22 @@
 /* new courses section */
 .new-courses .container {
-    /* width: 980px; */
+    width: 100%;
     padding: 3rem 0;
 }
 
 .new-courses .container .content {
     display: flex;
     justify-content: space-between;
+
     align-items: center;
+    /* gap: 300px; */
 }
 
 
 .new-courses .container .content .new-courses-left-side {
     font-size: 1.5rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .new-courses .container .content .new-courses-left-side .italic-line {
