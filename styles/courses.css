@@ -8,8 +8,10 @@
 }
 
 .course-container {
-    width: 980px;
+    /* width: 980px; */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .course-container .cards {
