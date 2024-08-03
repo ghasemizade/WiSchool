@@ -14,6 +14,7 @@
 </head>
 <body>
     
+    <!-- header -->
     <header class="header">
         <div class="top-bar">
             <div class="container-fluid">
@@ -119,6 +120,43 @@
             </div>
         </div>
     </nav>
+
+    <!-- course section -->
+    <section class="courses">
+        <div class="container">
+            <div class="courses-top-bar">
+                <div class="courses-top-bar__left">
+                    <div class="courses-top-bar__row-btn courses-top-bar__icon--active">
+                        <i class="fas fa-border-all courses-top-bar__"></i>
+                    </div>
+                    <div class="courses-top-bar__column-btn">
+                        <i class="fas fa-align-left courses-top-bar__"></i>
+                    </div>
+                    <div class="courses-top-bar__selection">
+                        <span class="courses-top-bar__selection-title">
+                            sort by default
+                            <i class="fas fa-angle-down courses-top-bar__selection-icon"></i>
+                        </span>
+                        <ul class="courses-top-bar__selection-list">
+                            <li class="courses-top-bar__selection-item courses-top-bar__selection-item--active">sort by default</li>
+                            <li class="courses-top-bar__selection-item ">sort by popular</li>
+                            <li class="courses-top-bar__selection-item ">sort by recently</li>
+                            <li class="courses-top-bar__selection-item ">sort by expensively</li>
+                            <li class="courses-top-bar__selection-item ">sort by cheaply</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="courses-top-bar__right">
+                    <form action="#" class="courses-top-bar__input">
+                        <input type="text" class="courses-top-bar__input" placeholder="search course..." />
+                        <i class="fas fa-search courses-top-bar__search-icon"></i>
+                    </form>
+                </div>
+            </div>
+            <div class="courses-content"></div>
+            <div class="courses-pagination"></div>
+        </div>
+    </section>
 
     <!-- footer -->
     <footer class="footer">
