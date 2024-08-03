@@ -1,14 +1,44 @@
-@media (max-width: 640px) {
+@media (max-width: 980px) {
     .top-bar-item > a {
         font-size: 1.5rem;
     }
+    img {
+        width: 200px;
+    }
+    .swiper {
+        width: 680px;
+    }
+    .swiper-slide img {
+        width: 200px;
+    }
+    .about-boxes .first-row-features-boxes,
+    .about-boxes .second-row-features-boxes {
+        width: 680px;
+    }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 720px) {
+    .land-title {
+        font-size: 40px;
+    }
     .top-bar-item > a {
         font-size: 1rem;
     }
     .list-of-top-bar{
         gap: 1.5rem;
+    }
+    img {
+        width: 150px;
+    }
+    .swiper {
+        width: 450px;
+    }
+    .swiper-slide img {
+        width: 150px;
+    }
+    .about-boxes .first-row-features-boxes,
+    .about-boxes .second-row-features-boxes {
+        width: 450px;
+        flex-direction: column;
     }
 }
