@@ -8,7 +8,7 @@
 }
 
 .land .container {
-    width: 980px;
+    /* width: 980px; */
     padding: 3rem 0;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
 
 .land-search {
     background-color: var(--secondary-color);
-    width: 80%;
+    
     display: flex;
     justify-content: center;
     align-items: stretch;

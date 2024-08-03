@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
     .land-title {
         font-size: 40px;
     }
@@ -40,5 +40,8 @@
     .about-boxes .second-row-features-boxes {
         width: 450px;
         flex-direction: column;
+    }
+    .list-of-nav-bar {
+        display: none;
     }
 }
