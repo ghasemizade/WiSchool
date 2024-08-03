@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+
 }
 
 .about-boxes .features-boxes-container {
@@ -33,7 +35,6 @@
 
 .about-boxes .features-boxes-container:hover {
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-
 }
 
 .about-boxes .first-row-features-boxes {
@@ -41,7 +42,6 @@
     justify-content: space-between;
     align-items: center;
     width: 980px;
-
 }
 
 .about-boxes .second-row-features-boxes  {
