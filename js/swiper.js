@@ -1,9 +1,13 @@
+let x = window.matchMedia("(max-width: 780px)")
+
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
     // loopedSlides: 1,
-    slidesPerView: 3,
+    slidesPerView: x.matches ? 1 : 3,
     // nextButton: '.swiper-button-next',
     // prevButton: '.swiper-button-prev',
     spaceBetween: 10,
@@ -22,4 +26,5 @@ const swiper = new Swiper('.swiper', {
       hide: true,
     },
   });
+  
   
