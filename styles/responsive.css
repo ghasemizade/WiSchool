@@ -44,4 +44,18 @@
     .list-of-nav-bar {
         display: none;
     }
+    .footer .footer-container {
+        flex-direction: column;
+    }
+    .course-container .cards {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .footer-content {
+        flex-direction: column;
+    }
+    .website-have-items {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
