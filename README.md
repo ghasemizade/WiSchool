@@ -1,13 +1,13 @@
 # WiSchool
 
-Welcome to the learnFlow repository! This project is designed to facilitate learning through interactive and dynamic web content.
+Welcome to the WiSchool repository! This project is designed to facilitate learning through interactive and dynamic web content.
 
 ## 🔴 [live](https://ghasemizade.github.io/learnFlow/soon.html)
 
 
 ## Description
 
-learnFlow is an innovative educational platform designed to enhance learning through interactive and dynamic web content. It offers engaging learning modules that cover a variety of topics, making the learning experience both enjoyable and effective. The platform features a responsive design, ensuring optimal usability across different devices and screen sizes. Additionally, learnFlow provides customizable components, allowing users to tailor their learning experience to their specific needs. The project is open-source, encouraging contributions from the community to further expand and improve its functionality.
+WiSchool is an innovative educational platform designed to enhance learning through interactive and dynamic web content. It offers engaging learning modules that cover a variety of topics, making the learning experience both enjoyable and effective. The platform features a responsive design, ensuring optimal usability across different devices and screen sizes. Additionally, learnFlow provides customizable components, allowing users to tailor their learning experience to their specific needs. The project is open-source, encouraging contributions from the community to further expand and improve its functionality.
 
 ## Features
 
