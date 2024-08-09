@@ -1,4 +1,4 @@
-# learnFlow
+# WiSchool
 
 Welcome to the learnFlow repository! This project is designed to facilitate learning through interactive and dynamic web content.
 
