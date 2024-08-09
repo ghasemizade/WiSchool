@@ -2,7 +2,7 @@
 
 Welcome to the learnFlow repository! This project is designed to facilitate learning through interactive and dynamic web content.
 
-## 🔴 [live](https://ghasemizade.github.io/learnFlow/)
+## 🔴 [live](https://ghasemizade.github.io/learnFlow/soon.html)
 
 
 ## Description
