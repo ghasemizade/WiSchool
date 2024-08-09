@@ -37,15 +37,15 @@
     }
     .header .entrance .register-btn-user  {
         display: block;
-        width: 35px;
-        height: 35px;
+        width: 32px;
+        height: 32px;
         border: var(--btn-primary-color) solid 2px;
         border-radius: 100%;
         background-color: transparent;
         color: #000;
     }
     .header .entrance .register-btn-user .user-icon {
-        font-size: 18px;
+        font-size: 14.5px;
     }
 }
 /* mobile */
