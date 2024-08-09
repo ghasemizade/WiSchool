@@ -19,11 +19,11 @@ WiSchool is an innovative educational platform designed to enhance learning thro
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ghasemizade/learnFlow.git
+   git clone https://github.com/ghasemizade/WiSchool.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
-   cd learnFlow
+   cd WiSchool
    ```
 3. **Open `index.html` in your browser to start exploring.**
 
@@ -43,4 +43,4 @@ We welcome contributions! Please fork the repository and create a pull request w
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-For more information, visit our [GitHub Pages site](https://ghasemizade.github.io/learnFlow/).
+For more information, visit our [GitHub Pages site](https://ghasemizade.github.io/WiSchool/).
