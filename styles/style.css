@@ -4,7 +4,7 @@
 @import url('./navbar.css');
 @import url('./land.css');
 @import url('./title.css');
-@import url('./headercourse.css');
+@import url('./header.css');
 @import url('./courses.css');
 @import url('./about.css');
 @import url('./popular.css');
@@ -46,75 +46,3 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #eee;  /* creates padding around scroll thumb */
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 20px;
-}
-
-.header  .menu-bar {
-    display: none;
-}
-
-.header .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.header .logo img {
-    width: 132px;
-    height: 41px;
-}
-
-.header .navigation {
-    font-size: 16px;
-}
-
-.header .navigation .nav-items {
-    display: flex;
-    margin: 20px;
-    gap: 42px;
-}
-
-.header .navigation .nav-items .nav-item {
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.header .navigation .nav-items .nav-item:hover {
-    color: var(--primary-color);
-}
-
-.header .entrance {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.header .entrance .search-icon{
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
-}
-
-.header .entrance .btn {
-    width: 75px;
-    height: 36px;
-    font-size: 14px;
-    background-color: var(--btn-primary-color);
-    color: #fff;
-    border: none;
-}
-
-.header .entrance .login-btn {
-    background-color: var(--btn-secondary-color);
-    color: var(--primary-color);
-}
-
-.header .entrance .register-btn-user {
-    display: none;
-}
