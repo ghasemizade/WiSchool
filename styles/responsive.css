@@ -20,6 +20,10 @@
         height: 26px;
         font-size: 12px;
     }
+    .banner .container {
+        flex-direction: column;
+        gap: 60px;
+    }
     
 
 }
@@ -47,6 +51,8 @@
     .header .entrance .register-btn-user .user-icon {
         font-size: 14.5px;
     }
+
+    
 }
 /* mobile */
 @media (max-width: 520px) {
