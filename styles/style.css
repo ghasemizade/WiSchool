@@ -46,3 +46,50 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #eee;  /* creates padding around scroll thumb */
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.banner .slogan {
+  max-width: 490px;
+}
+
+.banner .slogan h1{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 70px;
+}
+
+.banner .slogan span {
+  color: var(--primary-color);
+}
+
+.banner .slogan .get-started-btn {
+  background-color: var(--btn-primary-color);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.banner .information {
+  position: relative;
+}
+
+.banner .information .banner-cm {
+  width: 222px;
+  height: 147px;
+  position: absolute;
+  background-color: #fff;
+  border-bottom-right-radius: 40px;
+  bottom: 80px;
+  left: -100px;
+}
+
+.banner .information img {
+  height: 500px;
+}
