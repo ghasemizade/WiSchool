@@ -52,23 +52,21 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  
 }
 
 .features-container .items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  font-size: 13px;
   font-weight: 500;
 }
 
 .features-container .items .feature-icon-container {
   padding-right: 10px;
-  width: 38px;
-  height: 38px;
-  font-size: 16px;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
   background-color: var(--primary-color);
   color: #fff;
   display: flex;
@@ -81,9 +79,9 @@ body::-webkit-scrollbar-thumb {
 
 .features-container .items .item {
   display: flex;
-  justify-content: center;
   align-items: end;
   background-color: #DDFFFF;
   padding: 6px 15px;
   border-radius: 5px;
+
 }
