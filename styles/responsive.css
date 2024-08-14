@@ -52,6 +52,38 @@
         font-size: 14.5px;
     }
 
+    .banner .slogan h1 {
+        font-size: 38px;
+    }
+
+    .information .banner-bg-container img {
+        width: 260px;
+        height: 306.5px;
+    }
+    .banner .information .banner-cm {
+        width: 200px;
+        height: 135px;
+    }
+    .banner .banner-students {
+        width: 100px;
+        height: 147px;
+    }
+    .banner .banner-students .banner-user-icon-bg {
+        width: 30px;
+        height: 30px;
+    }
+    .banner .banner-students .banner-user-icon {
+        font-size: 13px;
+    }
+    .banner .banner-students span {
+        font-size: 25px;
+    }
+    .banner .banner-students p {
+        font-size: 11px;
+    }
+    .banner .information .banner-right-shape {
+        height: 360px;
+    }
     
 }
 /* mobile */
@@ -63,5 +95,23 @@
     }
     .header .navigation {
         display: none;
+    }
+    .banner .slogan h1 {
+        font-size: 32px;
+        line-height: 50px;
+        min-width: 300px;
+    }
+    .banner .information .banner-cm {
+        left: -50px;
+        bottom: 100px;
+        width: 170px;
+        height: 105px;
+    }
+    .banner .information .banner-cm .banner-cm-title h3 {
+        font-size: 11px;
+    }
+    .banner .information .banner-cm .banner-cm-avatar img {
+        width: 30px;
+        height: 30px;
     }
 }

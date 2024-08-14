@@ -113,7 +113,6 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   gap: 10px;
   z-index: 20;
-
 }
 
 .information img{
