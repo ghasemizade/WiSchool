@@ -24,6 +24,9 @@
         flex-direction: column;
         gap: 60px;
     }
+    .features-container .items {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
 
 }
@@ -84,7 +87,9 @@
     .banner .information .banner-right-shape {
         height: 360px;
     }
-    
+    .features-container .items {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* mobile */
 @media (max-width: 520px) {
@@ -113,5 +118,8 @@
     .banner .information .banner-cm .banner-cm-avatar img {
         width: 30px;
         height: 30px;
+    }
+    .features-container .items {
+        grid-template-columns: 1fr;
     }
 }
