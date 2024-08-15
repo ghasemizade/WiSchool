@@ -17,6 +17,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin: 10px 30px;
 }
 
 body {
@@ -52,14 +53,16 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
+  max-width: 100%;
 }
 
 .features-container .items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 50px;
   font-size: 13px;
   font-weight: 500;
+  width: 1280px;
 }
 
 .features-container .items .feature-icon-container {
