@@ -39,6 +39,9 @@
     .header .entrance .register-btn {
         display: none;
     }
+    .header .navigation {
+        display: none;
+    }
     .header .navigation .nav-items {
         gap: 10px;
     }
@@ -90,17 +93,14 @@
     .features-container .items {
         grid-template-columns: 1fr 1fr;
     }
-}
-/* mobile */
-@media (max-width: 520px) {
     .header .menu-bar {
         display: block;
         font-size: large;
         cursor: pointer;
     }
-    .header .navigation {
-        display: none;
-    }
+}
+/* mobile */
+@media (max-width: 520px) {
     .banner .slogan h1 {
         font-size: 32px;
         line-height: 50px;
@@ -121,5 +121,6 @@
     }
     .features-container .items {
         grid-template-columns: 1fr;
+        gap: 30px;
     }
 }
