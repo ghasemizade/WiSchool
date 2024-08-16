@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="./vendor/fontAwesome-v6/all.min.css">
+    <!-- <link rel="stylesheet" href="./vendor/fontAwesome-v6/all.min.css"> -->
     <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>WiSchool</title>
 </head>
 <body>
@@ -106,8 +106,61 @@
                 </div>
             </d>
         </section>
-    </main>
+        <!-- <div class="slider-container">
+            <div class="slide">
+                <div class="category-box">
+                    <img src="./assets/marketing.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="category-box">
+                    <img src="./assets/design.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="category-box">
+                    <img src="./assets/programming.jpg" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="category-box">
+                    <img src="./assets/technology.jpg" alt="">
+                </div>
+            </div>
+        </div> -->
 
+        <!-- Slider main container -->
+    </main>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <img src="./assets/marketing.jpg" alt="">
+            <p>Marketing</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="./assets/design.jpg" alt="">
+            <p>Design</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="./assets/programming.jpg" alt="">
+            <p>Programming</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="./assets/technology.jpg" alt="">
+            <p>Technology</p>
+        </div>
+        </div>
+    
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+    </div>
+    
+    <script type="module" src="/js/swiper.js"></script>
     <script src="./vendor/fontAwesome-v6/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
