@@ -1,30 +1,25 @@
-let x = window.matchMedia("(max-width: 780px)")
+const swiperSlider = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
 
-
-
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-    // loopedSlides: 1,
-    slidesPerView: x.matches ? 1 : 3,
-    // nextButton: '.swiper-button-next',
-    // prevButton: '.swiper-button-prev',
-    spaceBetween: 10,
-    centeredSlides: false,
-
-
-    // auto play option
-    autoplay: {
-      delay: 3000,
+  breakpoints: {
+    1024: {
+      slidesPerView: 3
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-      hide: true,
+    768: {
+      slidesPerView: 2
     },
-  });
+    520: {
+      slidesPerView: 1
+    }
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
   
-  
+});
