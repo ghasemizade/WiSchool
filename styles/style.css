@@ -49,39 +49,3 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #eee;  /* creates padding around scroll thumb */
 }
 
-.swiper-wrapper .swiper-slide {
-  position: relative;
-}
-
-.swiper-wrapper .swiper-slide img {
-  width: 291px;
-  height: 432px;
-  object-fit: cover;
-  filter: brightness(60%);
-  border-radius: 1px;
-}
-
-.swiper-wrapper .swiper-slide p {
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-}
-
-
-
-.swiper-button-prev {
-  --swiper-navigation-size: 40px;
-  --swiper-navigation-top-offset: 50%;
-  --swiper-navigation-sides-offset: 10px;
-  --swiper-navigation-color: var(--primary-color);
-}
-
-.swiper-button-next {
-  --swiper-navigation-size: 40px;
-  --swiper-navigation-top-offset: 50%;
-  --swiper-navigation-sides-offset: 10px;
-  --swiper-navigation-color: var(--primary-color);
-}
