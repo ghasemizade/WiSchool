@@ -1,10 +1,6 @@
 .swiper {
-    /* width: 980px; */
-    /* height: 300px; */
-}
-
-
-.swiper-slide img {
-    width: 100%;
-}
-
+    max-width: 1280px;
+    height: 432px;
+    margin-top: 60px;
+    user-select: none;
+  }
