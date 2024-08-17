@@ -1,15 +1,15 @@
 .swiper {
     /* max-width: 1280px; */
-    height: 552px;
+    /* height: 552px; */
     margin-top: 60px;
     user-select: none;
 }
 
-.swiper-wrapper .swiper-slide {
+.swiper-wrapper .category-box {
   position: relative;
 }
 
-.swiper-wrapper .swiper-slide img {
+.swiper-wrapper .category-box img {
   width: 291px;
   height: 432px;
   object-fit: cover;
@@ -17,7 +17,8 @@
   border-radius: 1px;
 }
 
-.swiper-wrapper .swiper-slide p {
+
+.swiper-wrapper .category-box p {
   padding: 10px 0;
   font-size: 22px;
   font-weight: 700;
@@ -31,7 +32,8 @@
   margin-bottom: 20px;
 }
 
-.swiper .head-category h2 {
+.swiper .head-category h2,
+.title h2 {
   font-size: 24px;
 }
 
