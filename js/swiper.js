@@ -5,7 +5,7 @@ const swiperSlider = new Swiper('.swiper', {
 
   breakpoints: {
     1024: {
-      slidesPerView: 3
+      slidesPerView: 4
     },
     768: {
       slidesPerView: 2
