@@ -1,6 +1,6 @@
 .swiper {
     max-width: 1280px;
-    height: 432px;
+    height: 552px;
     margin-top: 60px;
     user-select: none;
 }
@@ -18,12 +18,10 @@
 }
 
 .swiper-wrapper .swiper-slide p {
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
+  padding: 10px 0;
   font-size: 22px;
   font-weight: 700;
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .swiper .head-category {
@@ -44,15 +42,35 @@
 }
 
 .swiper-button-prev {
-  --swiper-navigation-size: 40px;
+  --swiper-navigation-size: 35px;
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 10px;
   --swiper-navigation-color: var(--primary-color);
 }
 
+.swiper-button-prev span{
+  position: absolute;
+  left: -9px;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  z-index: -10;
+  border-radius: 100%;
+}
+
 .swiper-button-next {
-  --swiper-navigation-size: 40px;
+  --swiper-navigation-size: 35px;
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 10px;
   --swiper-navigation-color: var(--primary-color);
+}
+
+.swiper-button-next span{
+  position: absolute;
+  right: -9px;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  z-index: -10;
+  border-radius: 100%;
 }
