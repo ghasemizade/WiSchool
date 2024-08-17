@@ -1,6 +1,13 @@
 /* descktops */
-@media (max-width: 1200px) {
-
+@media (max-width: 1400px) {
+    
+    .popular-courses-boxes .popular-courses-box {
+        width: 300px;
+    }
+    .popular-courses-boxes .popular-courses-box img {
+        width: 300px;
+        object-fit: cover;
+    }
 }
 /* laptops */
 @media (max-width: 1024px) {
@@ -98,6 +105,19 @@
         font-size: large;
         cursor: pointer;
     }
+
+    .popular-courses-boxes {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .popular-courses-boxes .popular-courses-box {
+        width: 391px;
+    }
+    .popular-courses-boxes .popular-courses-box img {
+        width: 391px;
+    }
 }
 /* mobile */
 @media (max-width: 520px) {
@@ -122,6 +142,12 @@
     .features-container .items {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+    .popular-courses-boxes .popular-courses-box {
+        width: 300px;
+    }
+    .popular-courses-boxes .popular-courses-box img {
+        width: 300px;
     }
 }
 
