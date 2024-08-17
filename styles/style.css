@@ -59,6 +59,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 60px;
 }
 
 .popular-courses .popular-courses-header button {
@@ -66,6 +67,83 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   color: #fff;
   font-size: 12px;
-  padding: 4px 6px;
+  padding: 5px 8px;
   border-radius: 20px;
+}
+
+.popular-courses-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.popular-courses-boxes .popular-courses-box {
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  width: 391px;
+  cursor: pointer;
+}
+
+.popular-courses-boxes .popular-courses-box img {
+  width: 391px;
+  height: 215px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.popular-courses-boxes .popular-courses-box .popular-courses-box-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.popular-courses-boxes 
+.popular-courses-box 
+.popular-courses-box-desc
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 280px;
+}
+
+.popular-courses-boxes 
+.popular-courses-box 
+.popular-courses-box-desc 
+.popular-courses-box-rate {
+  color: var(--primary-color);
+}
+
+.popular-courses-boxes .popular-courses-box-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.popular-courses-boxes 
+.popular-courses-box-details 
+.popular-courses-box-details-students {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.popular-courses-boxes 
+.popular-courses-box-details 
+.popular-courses-box-details-students
+.studets-icon {
+  padding-bottom: 7px;
+  color: var(--primary-color);
+}
+
+.popular-courses-boxes 
+.popular-courses-box-details
+.course-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
 }
