@@ -60,14 +60,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .wishool-life .head-wishool-life {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .wishool-life .wishool-life-container {
   display: flex;
   justify-content: start;
   align-items: start;
-
+  gap: 60px;
 }
 
 .wishool-life 
@@ -135,4 +135,62 @@ body::-webkit-scrollbar-thumb {
 p {
   font-weight: 500;
   font-size: 12px;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec h3 {
+  max-width: 503px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec
+.wishool-life-profits {
+  font-size: 16px;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec
+.wishool-life-profits 
+.wishool-life-profit {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 25px 0;
+  font-weight: 600;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec
+.wishool-life-profits 
+.wishool-life-profit .wishool-icon-bg {
+  background-color: #DDFFFF;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec
+.wishool-life-profits 
+.wishool-life-profit .wishool-icon{
+  color:var(--primary-color);
+  font-size: 18px;
+}
+
+.wishool-life 
+.wishool-life-container 
+.wishool-life-right-sec
+.wishool-life-profits 
+.wishool-life-profit p {
+  margin: 0 10px;
 }
