@@ -50,6 +50,23 @@
     .popular-courses-box {
       margin: 10px;
     }
+    
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-left-sec img {
+        width: 342px;
+        height: 411.43;
+    }
+
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-right-sec h3 {
+        font-size: 32px;
+    }
+    .wishool-life .wishool-life-container {
+        flex-direction: column;
+    }
+
 }
 /* tablets */
 @media (max-width: 768px) {
@@ -132,6 +149,30 @@
     .popular-courses-boxes .popular-courses-box img {
         width: 391px;
     }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-left-sec 
+    .job-opportunities-box {
+        width: 109px;
+        height: 126px;
+        right: -20px;
+    }
+
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-left-sec 
+    .job-opportunities-box .cart-bg {
+        width: 31px;
+        height: 31px;
+        font-size: 12px;
+    }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-left-sec 
+    .job-opportunities-box
+    .text-green-job {
+        font-size: 28px;
+    }
 }
 /* mobile */
 @media (max-width: 520px) {
@@ -162,6 +203,12 @@
     }
     .popular-courses-boxes .popular-courses-box img {
         width: 300px;
+    }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-left-sec img {
+        width: 302px;
+        height: 371.43;
     }
 }
 
