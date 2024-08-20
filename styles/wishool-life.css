@@ -1,0 +1,139 @@
+.wishool-life {
+    margin: 60px 0;
+  }
+  
+  .wishool-life .head-wishool-life {
+    margin-bottom: 40px;
+  }
+  
+  .wishool-life .wishool-life-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 60px;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec {
+    position: relative;
+    
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec img {
+    width: 392px;
+    height: 461.43;
+    border-radius: 30px 30px 80px 30px;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec 
+  .job-opportunities-box {
+    position: absolute;
+    right: -50px;
+    bottom: 40px;
+    width: 129px;
+    height: 146px;
+    background-color: #fff;
+    border-radius: 20px 20px 50px 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec 
+  .job-opportunities-box .cart-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1FFEE;
+    border-radius: 100%;
+    width: 41px;
+    height: 41px;
+    font-size: 14px;
+    color: var(--primary-color);
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec 
+  .job-opportunities-box
+  .text-green-job {
+    font-size: 36px;
+    font-weight: bold;
+    color: #00b050; /* Green color */
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-left-sec 
+  .job-opportunities-box
+  p {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec h3 {
+    max-width: 503px;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec
+  .wishool-life-profits {
+    font-size: 16px;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec
+  .wishool-life-profits 
+  .wishool-life-profit {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 25px 0;
+    font-weight: 600;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec
+  .wishool-life-profits 
+  .wishool-life-profit .wishool-icon-bg {
+    background-color: #DDFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec
+  .wishool-life-profits 
+  .wishool-life-profit .wishool-icon{
+    color:var(--primary-color);
+    font-size: 18px;
+  }
+  
+  .wishool-life 
+  .wishool-life-container 
+  .wishool-life-right-sec
+  .wishool-life-profits 
+  .wishool-life-profit p {
+    margin: 0 10px;
+  }
