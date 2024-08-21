@@ -1,0 +1,46 @@
+
+.team-member .team-member-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .team-member .team-member-container
+  .team-member-box {
+    /* width: 471.5;
+    height: 390.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  .team-member .team-member-container
+  .team-member-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  .team-member .team-member-container
+  .team-member-box p {
+    max-width: 260px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .team-member .team-member-container
+  .team-member-box .member-info {
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+  }
+  
+  .team-member .team-member-container
+  .team-member-box .member-info p {
+    color: var(--primary-color);
+  }
