@@ -8,8 +8,8 @@
   
   .wishool-life .wishool-life-container {
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     gap: 60px;
   }
   

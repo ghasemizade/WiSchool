@@ -67,6 +67,12 @@
         flex-direction: column;
     }
 
+    .reviews .reviews-left-sec h4 {
+        font-size: 32px;
+        max-width: 300px;
+
+    }
+
 }
 /* tablets */
 @media (max-width: 768px) {
@@ -172,6 +178,57 @@
     .job-opportunities-box
     .text-green-job {
         font-size: 28px;
+    }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-right-sec
+    .wishool-life-profits {
+        font-size: 12px;
+    }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-right-sec
+    .wishool-life-profits 
+    .wishool-life-profit .wishool-icon-bg {
+        width: 35px;
+        height: 35px;
+    }
+    .wishool-life 
+    .wishool-life-container 
+    .wishool-life-right-sec
+    .wishool-life-profits 
+    .wishool-life-profit .wishool-icon {
+        font-size: 14px;
+    }
+    .reviews {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .reviews .reviews-left-sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .reviews .reviews-left-sec 
+    .scroll-handle {
+        display: flex;
+    }
+    .reviews .reviews-right-sec .comment-slide {
+        width: 320px;
+        height: 202px;
+    }
+
+    .reviews .reviews-right-sec {
+        margin-left: 180px;
+    }
+
+    .reviews .reviews-right-sec
+    .comment-slide .comment-box-main {
+        font-size: 12px;
+    }
+    .reviews .reviews-right-sec
+    .comment-slide .comment-box-main p {
+        width: 270px;
     }
 }
 /* mobile */
