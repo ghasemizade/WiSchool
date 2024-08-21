@@ -55,3 +55,71 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #eee;  /* creates padding around scroll thumb */
 }
 
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews .reviews-left-sec h4 {
+  font-size: 46px;
+  font-weight: 600;
+  max-width: 370px;
+}
+
+.reviews .reviews-left-sec h4 span {
+  color: var(--primary-color);
+}
+
+.reviews .reviews-right-sec {
+  display: flex;
+  gap: 20px;
+  max-width: 520px;
+  overflow: scroll;
+}
+
+
+.reviews .reviews-right-sec .comment-slide {
+  width: 420px;
+  height: 252px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.reviews .reviews-right-sec
+.comment-slide .comment-box-head {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.reviews .reviews-right-sec
+.comment-slide .comment-box-head
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.reviews .reviews-right-sec
+.comment-slide .comment-box-head
+.cm-info-person {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.reviews .reviews-right-sec
+.comment-slide .comment-box-head
+.cm-info-person p {
+  color: var(--primary-color);
+}
+
+.reviews .reviews-right-sec
+.comment-slide .comment-box-main {
+  width: 380px;
+  font-size: 16px;
+  padding: 10px 10px;
+}
