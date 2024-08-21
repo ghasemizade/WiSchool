@@ -71,13 +71,30 @@ body::-webkit-scrollbar-thumb {
   color: var(--primary-color);
 }
 
+.reviews .reviews-left-sec 
+.scroll-handle .scroll-btn {
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+
+
 .reviews .reviews-right-sec {
   display: flex;
   gap: 20px;
   max-width: 520px;
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 
+.reviews .reviews-right-sec::-webkit-scrollbar {
+  display: none;
+}
 
 .reviews .reviews-right-sec .comment-slide {
   width: 420px;
