@@ -266,6 +266,24 @@
     .footer .footer-container .footer-right {
         flex-direction: column;
     }
+
+    .category-header-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .category-header-container
+    .category-header-left button {
+        font-size: 12px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .category-header-container
+    .category-header-left 
+    .category-sort-container {
+        font-size: 12px;
+    }
 }
 /* mobile */
 @media (max-width: 520px) {

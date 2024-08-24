@@ -162,3 +162,16 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10px;
   padding: 0 10px;
 }
+
+.category-header-container .category-header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.category-header-container .category-header-right input {
+  border: none;
+}
