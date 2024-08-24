@@ -17,6 +17,17 @@
     .popular-courses-box img {
         width: 300px;
     } */
+    .contact .contact-container
+    .contact-container-left img {
+        width: 383px;
+        height: 407px;
+        left: 120px;
+
+    }
+    .contact .contact-container
+    .contact-container-right {
+        right: 100px;
+    }
 }
 /* laptops */
 @media (max-width: 1024px) {
@@ -72,7 +83,14 @@
         max-width: 300px;
 
     }
+    .contact .contact-container
+    .contact-container-left img {
+        display: none;
+    }
 
+    .footer .footer-container {
+        flex-direction: column;
+    }
 }
 /* tablets */
 @media (max-width: 768px) {
@@ -200,18 +218,24 @@
     .wishool-life-profit .wishool-icon {
         font-size: 14px;
     }
-    .reviews {
+    .reviews .reviews-container {
         flex-direction: column;
-        gap: 30px;
     }
     .reviews .reviews-left-sec {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 50px;
+    }
+    .reviews .reviews-left-sec .scroll-handle {
+        margin-left: 50px;
     }
     .reviews .reviews-left-sec 
     .scroll-handle {
         display: flex;
+    }
+    .reviews {
+        display: none;
     }
     .reviews .reviews-right-sec .comment-slide {
         width: 320px;
@@ -229,6 +253,18 @@
     .reviews .reviews-right-sec
     .comment-slide .comment-box-main p {
         width: 270px;
+    }
+
+    .team-member .team-member-container {
+        flex-direction: column;
+    }
+
+    .contact .contact-container
+    .contact-container-right {
+        right: 50px;
+    }
+    .footer .footer-container .footer-right {
+        flex-direction: column;
     }
 }
 /* mobile */
@@ -267,5 +303,9 @@
         width: 302px;
         height: 371.43;
     }
+    /* .contact .contact-container
+    .contact-container-right {
+        right: 20px;
+    } */
 }
 
