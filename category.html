@@ -5,195 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="./vendor/fontAwesome-v6/all.min.css">
+    <!-- <link rel="stylesheet" href="./vendor/fontAwesome-v6/all.min.css"> -->
     <link rel="stylesheet" href="./vendor/bootstrap/bootstrap.min.css">
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
-    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>WiSchool</title>
 </head>
 <body>
-    
-    <!-- header -->
-    <header class="header">
-        <div class="top-bar">
-            <div class="container-fluid">
-                <div class="top-bar-content">
-                    <div class="top-bar-left">
-                        <ul class="list-of-top-bar">
-                            <li class="top-bar-item">
-                                <a href="#HTML">
-                                    for HTML
-                                </a>
-                                <span></span>
-                            </li>
-                            <li class="top-bar-item">
-                                <a href="#CSS">
-                                    for CSS
-                                </a>
-                                <span></span>
-                            </li>
-                            <li class="top-bar-item">
-                                <a href="#JAVASCRIPT">
-                                    for JAVASCRIPT
-                                </a>
-                                <span></span>
-                            </li>
-                            <li class="top-bar-item">
-                                <a href="#REACT">
-                                    for REACT
-                                </a>
-                                <span></span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="top-bar-right">
-                        <a class="top-bar-email" href="mailto:ghasemizade.hosein@gmail.com" itemprop="email"
-                        tabindex="-1">
-                            <i class="fa-solid fa-envelope top-bar-icon"></i>
-                        </a>
-                        <a class="top-bar-phone" href="tel:+989112907140" itemprop="telephone" tabindex="-1">
-                            <i class="fa-solid fa-phone top-bar-icon"></i>
-                        </a>
-                        <a class="px-1" href="https://github.com/ghasemizade" itemprop="telephone" tabindex="-1">
-                            <i class="fa-brands fa-github top-bar-icon"></i>
-                        </a>
-                    </div>
-                </div>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fa-solid fa-bars menu-bar"></i>
+                <img src="./assets/logo.png" alt="">
             </div>
-        </div>    
-    </header>
-
-    <!-- nav -->
-    <nav>
-        <div class="nav-bar">
-            <div class="container-fluid">
-                <div class="nav-bar-content">
-                    <div class="nav-bar-left">
-                        <a class="nav-bar-logo" href="/">
-                            FLOW
-                        </a>
-                        <ul class="list-of-nav-bar">
-                            <li class="nav-bar-item nav-bar-item-frontend">
-                                <span>frontend</span>
-                                <ul class="submenu list-of-nav-bar-frontend">
-                                    <li>Html</li>
-                                    <li>Css</li>
-                                    <li>Javascript</li>
-                                </ul>
-                                <i class="fa-solid fa-caret-up"></i>
-                            </li>
-                            <li class="nav-bar-item nav-bar-item-backend">
-                                <span>backend</span>
-                                <ul class="submenu list-of-nav-bar-backend">
-                                    <li>Python</li>
-                                    <li>Nodejs</li>
-                                    <li>PHP</li>
-                                </ul>
-                                <i class="fa-solid fa-caret-up"></i>
-                            </li>
-                            <li class="nav-bar-item">
-                                <span>aws</span>
-                            </li>
-                            <li class="nav-bar-item">
-                                <span>buisness</span>
-                            </li>
-                            <li class="nav-bar-item">
-                                <span>marketing</span>
-                            </li>
-                            <li class="nav-bar-item">
-                                <span>finance</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="nav-bar-right">
-                        <button type="button" class="btn btn-primary search-btn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                        <button type="button" class="btn btn-light nav-bar-shopping-cart-btn">
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <span class="nav-bar-shopping-cart-number">2</span>
-                        </button>
-                        <button type="button" class="btn btn-outline-primary login-btn">Login</button>
-                    </div>               
-                </div>
+            <nav class="navigation">
+                <ul class="nav-items">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Courses</li>
+                    <li class="nav-item">Instuctors</li>
+                    <li class="nav-item">Schedules</li>
+                    <li class="nav-item">Contact Us</li>
+                </ul>
+            </nav>
+            <div class="entrance">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <button class="btn login-btn">Login</button>
+                <button class="btn register-btn">Register</button>
+                <button class="btn register-btn-user"><i class="fa-solid fa-user user-icon"></i></button>
             </div>
-        </div>
-    </nav>
-
-    <!-- course section -->
-    <section class="courses">
-        <div class="container">
-            <div class="courses-top-bar">
-                <div class="courses-top-bar__left">
-                    <div class="courses-top-bar__row-btn courses-top-bar__icon--active">
-                        <i class="fas fa-border-all courses-top-bar__"></i>
-                    </div>
-                    <div class="courses-top-bar__column-btn">
-                        <i class="fas fa-align-left courses-top-bar__"></i>
-                    </div>
-                    <div class="courses-top-bar__selection">
-                        <span class="courses-top-bar__selection-title">
-                            sort by default
-                            <i class="fas fa-angle-down courses-top-bar__selection-icon"></i>
-                        </span>
-                        <ul class="courses-top-bar__selection-list">
-                            <li class="courses-top-bar__selection-item courses-top-bar__selection-item--active">sort by default</li>
-                            <li class="courses-top-bar__selection-item ">sort by popular</li>
-                            <li class="courses-top-bar__selection-item ">sort by recently</li>
-                            <li class="courses-top-bar__selection-item ">sort by expensively</li>
-                            <li class="courses-top-bar__selection-item ">sort by cheaply</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="courses-top-bar__right">
-                    <form action="#" class="courses-top-bar__input">
-                        <input type="text" class="courses-top-bar__input" placeholder="search course..." />
-                        <i class="fas fa-search courses-top-bar__search-icon"></i>
-                    </form>
-                </div>
-            </div>
-            <div class="courses-content"></div>
-            <div class="courses-pagination"></div>
-        </div>
-    </section>
-
-    <!-- footer -->
+        </header>
+        
+    </div>
     <footer class="footer">
-        <div class="left-semi-circle"></div>
-        <div class="right-semi-circle"></div>
         <div class="footer-container">
-            <div class="footer-content">
-                <ul>
-                    <li>LearnFlow Business</li>
-                    <li>Teach on LearnFlow</li>
-                    <li>Get the app</li>
-                    <li>About us</li>
-                    <li>Contact us</li>
+            <div class="footer-left">
+                <h5 class="footer-left-header">
+                    WiSchool
+                </h5>
+                <p>we are not here to sell you products, we sell value through our experties.</p>
+                <div class="footer-left-medias">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="footer-right-items">
+                    <li class="item">Home</li>
+                    <li class="item">Sevices</li>
+                    <li class="item">Training</li>
+                    <li class="item">Resources</li>
+                    <li class="item">About Us</li>
                 </ul>
-                <ul>
-                    <li>Careers</li>
-                    <li>Blog</li>
-                    <li>Helps and support</li>
-                    <li>Affiliate</li>
-                    <li>Investor</li>
+                <ul class="footer-right-items">
+                    <li class="item">SME</li>
+                    <li class="item">Solution</li>
+                    <li class="item">Reviews</li>
+                    <li class="item">Blog</li>
                 </ul>
-                <ul>
-                    <li>Terms</li>
-                    <li>Privacy policy</li>
-                    <li>Cookie setting</li>
-                    <li>Sitemap</li>
-                    <li>Accessibility statement</li>
+                <ul class="footer-right-items">
+                    <li class="item">Contact Us</li>
+                    <li class="item">Place A Call</li>
+                    <li class="item">Email</li>
+                    <li class="item">ghasemizade.hosein@gmail.com</li>
+                </ul>
+                <ul class="footer-right-items">
+                    <li class="item">Job Opening</li>
+                    <li class="item">News</li>
+                    <li class="item">Research</li>
+                </ul>
+                <ul class="footer-right-items">
+                    <li class="item">Uk Privacy Policy</li>
+                    <li class="item">Terms Of Use</li>
                 </ul>
             </div>
-            <div class="footer-source">
-                <a href="https://github.com/ghasemizade/learnFlow">
-                    <i class="fa-brands fa-github" style="color: #fff;"></i>
-                </a>
+        </div>
+        <div class="get-in-touch">
+            <h6>Subscribe to get latest updates</h6>
+            <div class="email-input">
+                <input type="text" placeholder="Your Email address">
+                <button>Subscribe</button>
             </div>
         </div>
     </footer>
 
+
+    <script src="./js/scroll.js"></script>
+    <script type="module" src="/js/swiper.js"></script>
     <script src="./vendor/fontAwesome-v6/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
