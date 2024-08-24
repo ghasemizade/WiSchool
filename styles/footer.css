@@ -1,0 +1,80 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+    gap: 100px;
+  }
+  
+  .footer .footer-left
+  .footer-left-header {
+    font-size: 24px;
+  }
+  
+  .footer .footer-left p {
+    max-width: 200px;
+    font-size: 16px;
+  }
+  
+  .footer .footer-left
+  .footer-left-medias {
+    font-size: 18px;
+    color: var(--primary-color);
+  }
+  
+  .footer .footer-right {
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+  }
+  
+  .footer .footer-right 
+  .footer-right-items .item:hover {
+    color: var(--primary-color);
+  }
+  
+  .footer .get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .footer .get-in-touch h6 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .footer .get-in-touch .email-input {
+    background-color: #fff;
+    max-width: 545px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .get-in-touch .email-input input {
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    padding-left: 10px;
+  }
+  
+  .footer .get-in-touch .email-input input::placeholder {
+    color: var(--primary-color);
+  }
+  
+  .footer .get-in-touch .email-input button {
+    background-color: #3BD27B;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    width: 126px;
+  }
