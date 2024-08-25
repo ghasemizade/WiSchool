@@ -1,3 +1,7 @@
+.popular-courses {
+  margin: 50px 0;
+}
+
 .popular-courses .popular-courses-header {
     display: flex;
     justify-content: space-between;
@@ -17,7 +21,6 @@
   .popular-courses-boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 30px;
     gap: 40px;
   }
   
@@ -64,9 +67,6 @@
     padding: 10px;
   }
   
-  .popular-courses-boxes 
-  .popular-courses-box 
-  .popular-courses-box-desc,
   .swiper .swiper-wrapper 
   .popular-courses-box 
   .popular-courses-box-desc
