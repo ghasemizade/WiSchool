@@ -1,0 +1,47 @@
+.course .breadcrumb {
+    background-color: #E1FFEE;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    gap: 50px;
+    
+}
+
+.course .breadcrumb 
+.breadcrumb-item {
+    position: relative;
+    font-size: 16px;
+    
+}
+
+.course .breadcrumb
+.breadcrumb-item::before {
+    width: 5px;
+    height: 32px;
+    background-color: #fff;
+    content: " ";
+    position: absolute;
+    right: -20px;
+    bottom: -15px;
+    transform: rotate(45deg);
+    
+}
+
+
+.course .breadcrumb
+.breadcrumb-item::after {
+    width: 5px;
+    height: 32px;
+    background-color: #fff;
+    content: " ";
+    position: absolute;
+    right: -20px;
+    top: -15px;
+    transform: rotate(-45deg);
+}
+
+.course .breadcrumb 
+.breadcrumb-item .breadcrumb-link p {
+    margin-bottom: 0;
+    
+}
