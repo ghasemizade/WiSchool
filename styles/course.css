@@ -40,6 +40,13 @@
     transform: rotate(-45deg);
 }
 
+.course .breadcrumb
+.breadcrumb-item:last-child::after,
+.course .breadcrumb
+.breadcrumb-item:last-child::before {
+    display: none;
+}
+
 .course .breadcrumb 
 .breadcrumb-item .breadcrumb-link p {
     margin-bottom: 0;
