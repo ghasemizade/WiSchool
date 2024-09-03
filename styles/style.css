@@ -62,7 +62,7 @@ body a {
   text-decoration: none;
 }
 
-.course-info .container .course-info-video{
+.course-info .course-container .course-info-video{
   width: 95%;
   height: 400px;
   border-radius: 10px;
@@ -72,14 +72,3 @@ body a {
   align-items: center;
 }
 
-.course-info .container .course-info-content {
-}
-
-.course-info .container 
-.course-info-content .course-badge {
-  width: 100px;
-  height: 20px;
-  background-color: #E1FFEE;
-  color: var(--primary-color);
-  
-}
