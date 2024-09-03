@@ -85,5 +85,20 @@ body a {
   border-radius: 5px;
   background-color: #E1FFEE;
   color: var(--primary-color);
-  padding: 3px 5px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.course-info .course-info-content 
+.course-badges .html-badge {
+  background-color: #f0652948;
+  color: #f06529;
+}
+
+.course-info .course-info-content 
+.course-badges .css-badge {
+  background-color: #2965f14d;
+  color: #2965f1;
+  
 }
