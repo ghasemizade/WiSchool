@@ -28,6 +28,12 @@
     color: var(--primary-color);
   }
   
+  .footer .footer-left
+  .footer-left-medias a .github-link{
+    font-size: 18px;
+    color: var(--primary-color);
+  }
+
   .footer .footer-right {
     display: flex;
     gap: 50px;
