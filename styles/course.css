@@ -66,7 +66,7 @@
   
   .course-info .course-info-content {
     margin: 10px 20px;
-    max-width: 500px;
+    /* max-width: 500px; */
   }
   
   .course-info .course-info-content .course-badges{
@@ -111,3 +111,28 @@
   .course-desc {
     font-size: 14px;
   }
+
+  .course-info .course-info-content
+  .course-info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-left {
+    max-width: 500px;
+  }
+
+  /* .course-info .course-info-content */
+  /* .course-info-box .course-info-box-right { */
+    /*  */
+  /* } */
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right img{
+    height: 50px;
+    width: 50px;
+  }
+
