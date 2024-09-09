@@ -126,15 +126,45 @@
   }
 
   .course-info .course-info-content
-  .course-info-box .course-info-box-right .row1 {
+  .course-info-box .course-info-box-right {
     background-color: #E1FFEE;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+  }
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right .row1 {
+    background-color: #09b45063;
     padding: 10px 20px 10px 5px;
-    width: 250px;
+    width: 350px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
   }
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right .row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right 
+  .row2 .sub-row2{
+    background-color: #09b45063;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding: 10px 20px 10px 5px;
+    border-radius: 10px;
+
+  } 
 
   .course-info .course-info-content
   .course-info-box .course-info-box-right img{
