@@ -138,11 +138,18 @@
     background-color: #09b45063;
     padding: 10px 20px 10px 5px;
     width: 350px;
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+  }
+
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right 
+  .row1 h5 {
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .course-info .course-info-content
@@ -161,10 +168,15 @@
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    padding: 10px 20px 10px 5px;
+    padding: 10px 20px;
     border-radius: 10px;
+  }
 
-  } 
+  .course-info .course-info-content
+  .course-info-box .course-info-box-right 
+  .row2 .sub-row2  .sub-row2-icon {
+    padding-top: 5px;
+  }
 
   .course-info .course-info-content
   .course-info-box .course-info-box-right img{
