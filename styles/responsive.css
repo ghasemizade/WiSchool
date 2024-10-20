@@ -12,11 +12,6 @@
         max-width: 300px;
         object-fit: cover;
     }
-
-    /* .swiper .swiper-wrapper 
-    .popular-courses-box img {
-        width: 300px;
-    } */
     .contact .contact-container
     .contact-container-left img {
         width: 383px;
@@ -27,6 +22,14 @@
     .contact .contact-container
     .contact-container-right {
         right: 100px;
+    }
+    .course-info .main-course-detail{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .course-info .course-info-content
+    .course-info-box {
+        flex-direction: column-reverse;
     }
 }
 /* laptops */

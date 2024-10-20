@@ -58,10 +58,11 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px 20px;
+  gap: 50px;
 }
 
 .course-info .course-info-video{
-    width: 50%;
+    width: 100%;
     height: 400px;
     border-radius: 10px;
     margin: 0 auto;
@@ -130,6 +131,7 @@
   .course-info .course-info-content
   .course-info-box .course-info-box-left {
     width: 100%;
+    margin-right: 50px;
   }
 
   .course-info .course-info-content
@@ -145,11 +147,15 @@
   .box-info-detail {
     background-color: #E1FFEE;
     width: 200px;
-    height: 60px;
+    height: 105px;
     border-radius: 20px;
     margin: 10px 5px;
-    text-align: center;
-    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-weight: 700;
   }
   .course-info .course-info-content
   .course-info-box .course-info-box-left
