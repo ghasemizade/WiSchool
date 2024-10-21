@@ -5,7 +5,7 @@ Welcome to the WiSchool repository! This project is designed to facilitate learn
 ![Frame 6647](https://github.com/user-attachments/assets/faa1b005-f4a7-4b7a-b587-d15e7b0974d0)
 
 
-## 🔴 [live](https://ghasemizade.github.io/WiSchool/soon.html)
+## 🔴 [live](https://wi-school-pi.vercel.app/)
 
 
 ## Description
